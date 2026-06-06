@@ -1,8 +1,8 @@
 package com.satyanand.gRPCClient.client;
 
-import com.satyanand.gRPCClient.SampleRequest;
-import com.satyanand.gRPCClient.SampleResponse;
-import com.satyanand.gRPCClient.SampleServiceGrpc;
+import com.satyanand.gRPCServer.SampleRequest;
+import com.satyanand.gRPCServer.SampleResponse;
+import com.satyanand.gRPCServer.SampleServiceGrpc;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 import jakarta.annotation.PostConstruct;
